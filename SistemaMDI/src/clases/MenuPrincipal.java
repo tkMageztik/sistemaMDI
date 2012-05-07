@@ -11,6 +11,8 @@ import java.awt.event.ActionListener;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
 
+import com.birosoft.liquid.LiquidLookAndFeel;
+
 public class MenuPrincipal extends JFrame {
 	JTextField prueba2;
 	MenuBar menuBar;
@@ -18,6 +20,8 @@ public class MenuPrincipal extends JFrame {
 
 	public MenuPrincipal() {
 
+	
+		  
 		menuBar = new MenuBar();
 		menuBar.setFont(new Font("", Font.ITALIC, 12));
 		
